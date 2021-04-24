@@ -28,7 +28,7 @@ export default function HomeScreen() {
         // }
         // fetchData()
         dispatch(listProducts())
-    }, [])
+    }, [dispatch])
     return (
         <div>
             {loading ? ( <LoadingBox></LoadingBox> )
